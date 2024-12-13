@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- NAV -->
+    <div class="container fs-5" name="top">
+        <div class="row">
+            <div class="col-sm-10 offset-sm-1 pt-3 border-bottom">
+                <nav class="navbar navbar-expand-lg nav-underline">
+
+                    <a class="navbar-brand" href="index.html">Bootstrap 5 Blog</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ms-auto">
+                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link" href="about.html">About Me</a>
+                            <a class="nav-link" href="blog.html">Blog Post</a>
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- NAV END -->
+    <!-- IMAGE -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-10 offset-md-1 my-3">
+                <img src="https://picsum.photos/id/12/1200/600" alt="" class="img-fluid w-100 rounded">
+            </div>
+        </div>
+    </div>
+    <!-- IMAGE END -->
+    <!-- MAIN -->
+    <div class="container">
+        <div class="row">
+            <article class="col-sm-12 col-md-6 offset-md-1">
+                <h1 class="mt-3">Lorem ipsum dolor sit amet.</h1>
+                <hr>
+                <p class="my-4 fs-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, aut. Quisquam minus iusto
+                    nobis autem,
+                    quidem recusandae animi rem provident magnam, perspiciatis adipisci veniam voluptas repudiandae.
+                    Esse provident, aliquid, facere reprehenderit laudantium voluptas temporibus quo minus possimus ab
+                    ipsam earum commodi, corporis illum incidunt. Optio placeat sunt tempora tempore praesentium ex
+                    explicabo ut voluptatem necessitatibus debitis quas veritatis qui ea maiores est consequatur
+                    accusantium quod eius, corrupti error laudantium. Consequuntur tempora aliquam in quaerat eum libero
+                    asperiores unde vero. Blanditiis cum accusantium dicta possimus a esse veritatis? Expedita
+                    voluptates magni ut placeat beatae est doloremque minus quae, reiciendis voluptatem libero fuga
+                    iusto dolor itaque at, repellat assumenda nulla unde recusandae labore ipsa illo quis velit.
+                    Incidunt recusandae tempora soluta eius.</p>
+                <img src="https://picsum.photos/id/11/1200/600" alt="" class="img-fluid w-100 rounded">
+                <p class="my-4 fs-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid est voluptates
+                    corrupti officia, minima in illum? Eos temporibus doloremque repudiandae corrupti ea labore dolorum
+                    obcaecati quas adipisci debitis. Deserunt hic illo ut, necessitatibus amet et nisi laborum doloribus
+                    dicta vel quasi, suscipit quia, blanditiis optio perferendis ullam cumque excepturi sunt minus.
+                    Porro obcaecati beatae, ex minima dolore quidem dolorum laborum vero voluptates ipsam. Enim corrupti
+                    suscipit deserunt beatae perferendis praesentium ratione itaque sint nihil corporis molestiae quod,
+                    nobis incidunt ex.</p>
+            </article>
+
+
+            <!-- ASIDE -->
+            <aside class="col-md-4 col-sm-12 text-center my-4 my-md-0 position-sticky"
+                style="max-height: 440px; top: 3rem;">
+                <div class="container border border-secondary-subtle rounded pb-3">
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-center my-2">
+                            <img src="assets/profile.jpeg" class="rounded-circle profile-picture"
+                                alt="This Person Does Not Exist">
+                        </div>
+                        <div class="col-12">
+                            <p class="fs-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-center">
+                            <form>
+                                <h5 class="fs-3">Subscribe to our newsletter</h5>
+                                <p class="fs-5">Monthly digest of what's new and exciting from us.</p>
+                                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                                    <label for="newsletter1" class="visually-hidden">Email address</label>
+                                    <input id="newsletter1" type="text" class="form-control"
+                                        placeholder="Email address">
+                                    <button class="btn btn-outline-secondary" type="button">Subscribe</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 mt-3">
+                        <a href="#top"><button class="btn btn-outline-secondary end-0">TOP</button></a>
+                    </div>
+                </div>
+            </aside>
+            <!-- ASIDE END -->
+        </div>
+    </div>
+    </div>
+    <!-- MAIN END -->
+    <!-- FOOTER -->
+    <div class="container">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item nav-underline"><a href="index.html" class="nav-link px-2 text-body-secondary">Home
+                    </a></li>
+                <li class="nav-item nav-underline"><a href="about.html" class="nav-link px-2 text-body-secondary">About
+                        Me</a></li>
+                <li class="nav-item nav-underline"><a href="contact.html"
+                        class="nav-link px-2 text-body-secondary">Contact</a></li>
+                <li class="nav-item nav-underline"><a href="blog.html" class="nav-link px-2 text-body-secondary">Blog
+                        Post</a></li>
+            </ul>
+            <p class="text-center"><a href="https://github.com/imzaok"
+                    class="link-underline link-underline-opacity-0 link-secondary link-underline-opacity-25-hover link-offset-3">github.com/imzaok</a>
+            </p>
+        </footer>
+        <!-- FOOTER END -->
+    </div>
+    <!-- FOOTER END -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
